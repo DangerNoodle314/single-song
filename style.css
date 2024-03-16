@@ -1,5 +1,5 @@
 body {
-    background: gray;
+    background: rgb(248, 248, 248);
 }
 
 /* CSS Variables */
@@ -24,15 +24,19 @@ body {
     --plyr-tooltip-color: black; 
 
     --plyr-control-icon-size: 16px;
+
+
 }
 
+*{
+    border: 1px black dotted;
+
+}
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
 }
 
 main img {
@@ -48,6 +52,23 @@ article {
     justify-content: center;
 }
 
+
+aside{
+    
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;    
+}
+
+aside img
+{
+    min-width: 50%;
+}
+aside figcaption{
+    min-width: 50%;
+
+}
+
 footer {
     text-align: center;
 }
@@ -59,3 +80,11 @@ footer {
         align-items: center;
     }
 }
+
+/* Layout Notes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ # add an hover expand to the album art
+
+ # use layout 
+
+*/ 
