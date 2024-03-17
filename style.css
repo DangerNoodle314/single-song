@@ -40,15 +40,9 @@ body {
 main {
     /* Fixed width center align */
     margin-inline: auto;
-    font-family: ;
-
+    font-family: "Madimi One";
 }
 
-main img {
-    /* Fit image to container */
-    max-width: 100%;
-    display: block;
-}
 
 article {
     /* flow content horizontally */
@@ -81,8 +75,9 @@ aside{
 
 aside img
 {
-    min-width: 50%;
+    max-width: 50%;
 }
+
 aside figcaption{
     min-width: 50%;
 
