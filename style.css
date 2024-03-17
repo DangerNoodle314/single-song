@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
 body {
     background: rgb(248, 248, 248);
+    font-family: "Madimi One", sans-serif;
 }
 
 /* CSS Variables */
@@ -36,6 +40,7 @@ body {
 main {
     /* Fixed width center align */
     margin-inline: auto;
+    font-family: ;
 
 }
 
@@ -49,7 +54,21 @@ article {
     /* flow content horizontally */
     display: flex;
     gap: 1em;
-    justify-content: center;
+    flex-direction: column;
+}
+
+
+section{
+    max-width:16em;
+    font-size: 2.5em;
+    text-wrap: wrap;
+    align-content: space-between;
+    
+}
+
+section p{
+    margin: .25em;
+    
 }
 
 
@@ -73,6 +92,10 @@ footer {
     text-align: center;
 }
 
+
+
+
+
 /* Media Queries */
 @media (max-width: 600px) {
     main article {
@@ -80,6 +103,8 @@ footer {
         align-items: center;
     }
 }
+
+
 
 /* Layout Notes ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
