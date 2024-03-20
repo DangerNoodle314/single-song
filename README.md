@@ -1,16 +1,21 @@
-# Movie Trailer Website
+# Single Song Promotion
 
-> Trailers are sometimes better than the movie.
+> Playlists more popular than albums 
 
 ## What is this? 
-* A website to promote a single movie
-* Promotional website to showcase a movie
+* A website to promote a single-song
+* Promotional website to showcase a song
 * Practice [Editorial Design concepts](https://taiarts.com/en/blog/what-is-editorial-design/) using [Art Direction methods](https://alistapart.com/article/art-direction-and-design/)
 
 ## Why Does This Exist?
-* [Movie trailers build excitement for an upcoming movie](https://www.npr.org/2023/04/10/1166992845/best-movie-trailers)
-* [There are companies dedicated to making trailers](https://www.theringer.com/movies/2018/7/23/17601024/movie-trailer-editors-marvel-pixar-how-made)
-* [Websites dedicated to movies are an historical archive](https://www.spacejam.com/1996/jam.html). The _Space Jam_ website still works.
+* [Americans Listening to Playlists Over Albums, Study Finds](https://time.com/4505600/playlists-albums-loop-music-business/)
+* Music is heavily promoted as short clips e.g. [TikTok Top 50 songs](https://www.billboard.com/charts/tiktok-billboard-top-50/)
+* What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* Your citations go here
+* [YOUTUBE](https://www.youtube.com/watch?v=1Rh2ozDeiQE)
+* [WAVE_AUDIO](https://wave.video/convert/youtube-to-mp4-65)
+* [ANIMATE_STYLES] (https://animate.style/)
+* [Plyr] (https://github.com/sampotts/plyr)
+* [P. Colin Manikoth] (https://github.com/ewuweblab/single-song-promo) 
+* [Freepik] Image by davidzydd (https://www.freepik.com/free-vector/coloured-polygonal-background-design_913220.htm#fromView=search&page=1&position=18&uuid=67bc65db-1d9f-4e86-ba22-fea06c46b706")

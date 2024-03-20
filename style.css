@@ -2,30 +2,31 @@
 
 
 body {
-    background: rgb(248, 248, 248);
+    background-image: url("assets/OBSK480.png");
     font-family: "Madimi One", sans-serif;
+    margin:0;
 }
 
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: #00b2ff;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background:#ebd883;
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color: black;
 
-    --plyr-audio-control-color-hover:  black;
+    --plyr-audio-control-color-hover:  #ebd883 ;
 
-    --plyr-audio-progress-buffered-background:  black;
+    --plyr-audio-progress-buffered-background:  #fd70ce;
 
-    --plyr-audio-range-track-background: white;
+    --plyr-audio-range-track-background: #fd70ce;
     
     --plyr-font-family: sans-serif;
     --plyr-font-size-time: 16px;
 
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-tooltip-color: #ffec9b; 
 
     --plyr-control-icon-size: 16px;
 
@@ -41,14 +42,17 @@ main {
     /* Fixed width center align */
     margin-inline: auto;
     font-family: "Madimi One";
+    background-color: #ffb4947a;
 }
 
 
 article {
     /* flow content horizontally */
     display: flex;
-    gap: 1em;
+    gap: 0em;
     flex-direction: column;
+    align-items: center;
+   
 }
 
 
@@ -56,33 +60,60 @@ section{
     max-width:16em;
     font-size: 2.5em;
     text-wrap: wrap;
-    align-content: space-between;
+    background-color: #00b2ff;
     
 }
 
+.title{
+    min-width: 50%;
+    background-color: #ffec9b;
+    text-wrap: wrap;
+    padding: 1.15em;
+    height: 500px;
+}
+
+
 section p{
     margin: .25em;
-    
 }
+
 
 
 aside{
     
     display:flex;
     justify-content: space-around;
-    flex-direction: row;    
+    align-items: stretch;
+    flex-direction: row;
+    margin 0;
+    
+     
 }
 
-aside img
+h1{
+    font-size: 2em;
+    
+}
+
+h3{
+    font-size: 1em;
+}
+
+.album
 {
-    max-width: 50%;
+    overflow:scroll;
+    background-color: #ffec9b;
+    
 }
 
-aside figcaption{
-    min-width: 50%;
-
+.album p{
+    margin-bottom: 0;
 }
 
+.album img
+ {
+    min-height: 50%;
+ }
 footer {
     text-align: center;
 }
