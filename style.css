@@ -12,11 +12,11 @@ body {
     /* main UI color */
     --plyr-color-main: #00b2ff;
     /* audio controls background */
-    --plyr-audio-controls-background:#ebd883;
+    --plyr-audio-controls-background: #ffec9b;
     /* audio controls color */
     --plyr-audio-control-color: black;
 
-    --plyr-audio-control-color-hover:  #ebd883 ;
+    --plyr-audio-control-color-hover:  #ffec9b ;
 
     --plyr-audio-progress-buffered-background:  #fd70ce;
 
@@ -26,23 +26,20 @@ body {
     --plyr-font-size-time: 16px;
 
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: #ffec9b; 
+    --plyr-tooltip-color: #00b2ff; 
 
     --plyr-control-icon-size: 16px;
 
 
 }
 
-*{
-    border: 1px black dotted;
 
-}
 /* Layout */
 main {
     /* Fixed width center align */
     margin-inline: auto;
     font-family: "Madimi One";
-    background-color: #ffb4947a;
+    background-color: #ffb494c4;
 }
 
 
@@ -57,10 +54,12 @@ article {
 
 
 section{
-    max-width:16em;
+    width:16em;
     font-size: 2.5em;
     text-wrap: wrap;
     background-color: #00b2ff;
+    padding:0px 50px;
+    border-bottom:3px #fd70ce dashed;
     
 }
 
@@ -69,12 +68,20 @@ section{
     background-color: #ffec9b;
     text-wrap: wrap;
     padding: 1.15em;
-    height: 500px;
+    height:100vh;
+    border-bottom:3px #fd70ce dashed;
+
 }
 
-
+.Lyrics
+{
+    
+}
 section p{
     margin: .25em;
+    background: #fd70cec4;
+    padding:0 1em;
+    border:#ffec9b 2px solid
 }
 
 
@@ -82,12 +89,12 @@ section p{
 aside{
     
     display:flex;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content:center;
+    align-items: flex-start;
     flex-direction: row;
-    margin 0;
+    margin: 0;
     
-     
+
 }
 
 h1{
@@ -101,18 +108,15 @@ h3{
 
 .album
 {
-    overflow:scroll;
-    background-color: #ffec9b;
-    
-}
-
-.album p{
-    margin-bottom: 0;
+    height:1000px;
+    background-color: #ffec9b7a;
+    align-content:space-between;
+    border-bottom:3px #fd70ce dashed; 
 }
 
 .album img
  {
-    min-height: 50%;
+    width: 550px;
  }
 footer {
     text-align: center;
