@@ -20,3 +20,4 @@
 * [P. Colin Manikoth] (https://github.com/ewuweblab/single-song-promo) 
 * [Freepik] Image by davidzydd (https://www.freepik.com/free-vector/ coloured-polygonal-background-design_913220.htm#fromView=search&page=1&position=18&uuid=67bc65db-1d9f-4e86-ba22-fea06c46b706")
 * [Google] (https://fonts.googleapis.com/css2?family=Madimi+One&display=swap)
+* [favicon] (https://favicon.io/favicon-converter/)

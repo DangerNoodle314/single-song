@@ -6,8 +6,9 @@
     }
     
     /* print links */
-    a[href]::after {
-        content: " " attr( href )
+    a[href]:after {
+        content: " (" attr(href) ")";
+        display: none;
     }
     
     /* paper sizing */
